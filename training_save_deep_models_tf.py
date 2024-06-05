@@ -111,7 +111,7 @@ if __name__ == '__main__':
     argparser.add_argument('--lr', type=float, help='learning rate', default=0.001)
     argparser.add_argument('--batchsz', type=int, help='total batchsz for traindb', default=32)
     argparser.add_argument('--size', type=int, default=1250)
-    argparser.add_argument('--path_data', type=str, default='D:/Data_Experiment/data_ECGdb_ICMCdb/training_dataset/')
+    argparser.add_argument('--path_data', type=str, default='/content/training_dataset/')
     argparser.add_argument('--path_indices', type=str, default='./data_indices/')
     args = argparser.parse_args()
 
